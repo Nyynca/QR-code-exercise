@@ -1,0 +1,50 @@
+html{
+  background-color: hsl(212, 45%, 89%);
+}
+
+.outline{
+  background-color: hsl(0, 0%, 100%);
+  margin: auto;
+  margin-top: 120px;
+  width: 250px;
+  padding: 10px 0px;
+  border-radius: 10px;
+}
+
+.qr{
+  width: 90%;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.title,
+.description{
+  text-align: center;
+  display: inline-block;
+  font-family: 'Outfit', sans-serif;
+  width: 200px;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.title{
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  font-size: 16px;
+  text-align: center;
+  display: block;
+}
+
+.description{
+  font-weight: 400;
+  font-size: 13px;
+  color: hsl(220, 15%, 55%);
+  text-align: center;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.attribution{
+  margin-top: 50px;
+}
