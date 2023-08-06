@@ -3,13 +3,19 @@ html{
 }
 
 .outline{
-  background-color: black;
+  background-color: hsl(0, 0%, 100%);
   margin: auto;
-  margin-top: 3%;
-  width: 12%;
+  margin-top: 12vw;
+  width: 20vw;
   height: auto;
-  padding: 0.9%;
+  padding-top: 0.8%;
+  padding-bottom: 1.8%;
   border-radius: 10px;
+}
+
+.text{
+  display: block;
+  margin: auto;
 }
 
 .qr{
@@ -26,25 +32,28 @@ html{
   font-family: 'Outfit', sans-serif;
   width: 50%;
   margin: auto;
-  margin-top: 10%;
 }
 
 .title{
+  display: block;
   font-weight: 700;
   color: hsl(218, 44%, 22%);
-  font-size: 1vw;
+  font-size: 1.4vw;
   text-align: center;
-  display: block;
-  width: 100%;
+  width: 80%;
+  padding-top: 8%;
 }
 
 .description{
   display: block;
   font-weight: 400;
-  font-size: 0.85vw;
   color: hsl(220, 15%, 55%);
-  margin-bottom: 10%;
-  width: 100%;
+  font-size: 1vw;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 4%;
+  padding-top: 5%;
 }
 
 .attribution{
